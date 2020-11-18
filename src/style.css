@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+}
+
+#content { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: none;
+    gap: 10px;
+    margin: 80px 30px 60px 30px;
+   
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: monospace;
+    
+}
+
+#about{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card {
+    background-color: orange;
+    border: 3px solid black;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 14px;
+    
+}
+
+.price {
+    float:right;
+}
+
+.hrs {
+    float: right;
+}
+
+.address, .timings {
+    background-color: orange;
+    flex: 1 1 0;
+    width: 50vw;
+    margin: 10px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.tabLink {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    font-size: 20px;
+    width: 30%;
+}
+
+.active {
+    background-color: #adadad;
+}
