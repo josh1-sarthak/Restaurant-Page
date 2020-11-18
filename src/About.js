@@ -10,7 +10,7 @@ export function constructAbout() {
     aboutPage.appendChild(heading);
 
     const img = document.createElement("img");
-    setAttributes(img, {"src": "https://www.urdesignmag.com/wordpress/wp-content/uploads/2020/04/peak-restaurant-new-york-city-usa-rockwell-group-2.jpg", "alt":"restaurant", "width":"800", "height":"500" });
+    setAttributes(img, {"src": "https://www.urdesignmag.com/wordpress/wp-content/uploads/2020/04/peak-restaurant-new-york-city-usa-rockwell-group-2.jpg", "alt":"restaurant", "width":"700", "height":"400" });
 
     function setAttributes(element, attribute) {
         for (let key in attribute){
