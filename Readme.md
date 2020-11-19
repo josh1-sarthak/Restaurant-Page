@@ -8,6 +8,7 @@ A fictional Italian restaurant site named Casey's Restaurant comprising of tabbe
 
 
 ## Skills Demonstrated
+- Webpack
 - ES6 modules
 - DOM manipulation
 - CSS Grid and Flexbox
